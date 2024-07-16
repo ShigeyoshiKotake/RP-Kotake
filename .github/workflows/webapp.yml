@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
 
 env:
-  APP_SERVICE_NAME:'12f-kotake-20240712'
-  ACCOUNT_NAME:'ShigeyoshiKotake'
+  APP_SERVICE_NAME: '12f-kotake-20240712'
+  ACCOUNT_NAME: 'ShigeyoshiKotake'
 
 jobs:
   # .NET6 Webアプリのビルド
