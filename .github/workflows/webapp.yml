@@ -30,7 +30,7 @@ jobs:
 
 
  # プロジェクトビルド時にパッケージリストアする必要があるため、NuGetソースにGitHub
-      - name:　Nuget add source for GitHub Packages
+      - name: Nuget add source for GitHub Packages
         run: dotnet nuget add source --username ${{ env.ACCOUNT_NAME }} --password
 
       - name: Build with dotnet
