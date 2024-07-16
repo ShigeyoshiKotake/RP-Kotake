@@ -1,7 +1,6 @@
 name: 'Build and deploy ASP.Net Core app to Azure Web App'
 
-on:
-  push:
+on: push
     branches:
       - main
   workflow_dispatch:
